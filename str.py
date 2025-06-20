@@ -1,0 +1,7 @@
+s = input("Enter a string: ")
+print("Reversed:", s[::-1])
+ch = input("Character to count: ")
+print(f"'{ch}' appears", s.count(ch), "times")
+old = input("Character to replace: ")
+new = input("Replace with: ")
+print("Modified string:", s.replace(old, new))
